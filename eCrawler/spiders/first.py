@@ -24,37 +24,57 @@ class FirstSpider(CrawlSpider):
         
 
         #groupsolt = response.xpath('//[@class="grouptableslot"]').extract()
-        teamNames = response.xpath('//div[contains(@class, "team-name")]/text()').extract()
         body = response.body
         body = body.decode('utf-8')
         data = re.findall(r'"[>]*team[^"]*?">([^<]*)', body)
         data2 = re.findall(r'"[>]*team[\d\D]*?name[^>]*?>([^<]*)', body)
+        results = re.findall(r'"[>]*score[\d\D]*?[^>]*?>[\d\D]*?(loss?t?)[\d\D]*?<\/', body)
+        prize = re.findall(r'prize[^$]*(\$[\d\,\.]*)', body)
+        participants = re.findall(r'"[>]*name[^>]*?">([^<]*)[\d\D]*(vs)[\d\D]*"[>]*name[^>]*?">([^<]*)', body)
+        game = re.findall(r'(counterstrike)?(l?L?eague O?o?f l?L?egends)?(h?H?earthstone)?(C?c?ounter S?s?trike)?', body)
+        date = re.findall(r'match[\d\D]*datetime="([^"]*)', body)
+        
+        
 
-        with open('teams.csv', 'a') as csvfile:
+        with open('teams1.csv', 'a') as csvfile:
             spamwriter = csv.writer(csvfile, delimiter=',',quotechar='|', quoting=csv.QUOTE_MINIMAL)
-            spamwriter.writerow(['Team Name'])
-            for teamName in teamNames:
-                spamwriter.writerow([teamName])
-
-        with open('data1.csv', 'a') as csvfile:
-            spamwriter = csv.writer(csvfile, delimiter=',',quotechar='|', quoting=csv.QUOTE_MINIMAL)
-            spamwriter.writerow(['Team Name'])
             for teamName in data2:
                 spamwriter.writerow([teamName])
 
-        with open('data2.csv', 'a') as csvfile:
+        with open('teams2.csv', 'a') as csvfile:
             spamwriter = csv.writer(csvfile, delimiter=',',quotechar='|', quoting=csv.QUOTE_MINIMAL)
-            spamwriter.writerow(['Team Name'])
             for teamName in data2:
                 spamwriter.writerow([teamName])
 
+        with open('prize.csv', 'a') as csvfile:
+            spamwriter = csv.writer(csvfile, delimiter=',',quotechar='|', quoting=csv.QUOTE_MINIMAL)
+            for teamName in prize:
+                spamwriter.writerow([teamName])
                 
+        with open('participants.csv', 'a') as csvfile:
+            spamwriter = csv.writer(csvfile, delimiter=',',quotechar='|', quoting=csv.QUOTE_MINIMAL)
+            for teamName in participants:
+                spamwriter.writerow([teamName])
+                
+        with open('results.csv', 'a') as csvfile:
+            spamwriter = csv.writer(csvfile, delimiter=',',quotechar='|', quoting=csv.QUOTE_MINIMAL)
+            for teamName in results:
+                spamwriter.writerow([teamName])
+                
+        with open('game.csv', 'a') as csvfile:
+            spamwriter = csv.writer(csvfile, delimiter=',',quotechar='|', quoting=csv.QUOTE_MINIMAL)
+            for teamName in game:
+                spamwriter.writerow([teamName])
+                
+        with open('date.csv', 'a') as csvfile:
+            spamwriter = csv.writer(csvfile, delimiter=',',quotechar='|', quoting=csv.QUOTE_MINIMAL)
+            for teamName in date:
+                spamwriter.writerow([teamName])
 
-        print(data)
-        print(data2)
-        #print(body)
+
+
 
         print('Ctrl + C')
-        time.sleep(1)
+        time.sleep(5)
 
         yield {'teamName':teamNames}
