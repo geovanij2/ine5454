@@ -14,47 +14,38 @@ class FirstSpider(CrawlSpider):
     #allowed_domains = ['https://liquipedia.net/']
 
     #urls para startar o crawler
-    start_urls = ['https://www.gosugamers.net/','https://watch.lolesports.com/', 'https://liquipedia.net/','https://www.espn.com/esports/']
+    start_urls = ['https://www.gosugamers.net/','https://watch.lolesports.com/', 'https://hltv.org/','https://www.espn.com/esports/']
     rules = (Rule(LinkExtractor(), callback = 'parse_page', follow=True),)
+
+    with open('Results.csv', 'w') as csvfile:
+        spamwriter = csv.writer(csvfile, delimiter=',',quotechar='|', quoting=csv.QUOTE_MINIMAL)
+        spamwriter.writerow(['URL', 'Tipo de Dado', 'Dado'])
 
     def parse_page(self, response):
 
-        #teamRegex = r'"[>]*team[^"]*?">([^<]*)'
-        #teamRegex2 = r'"[>]*team[\d\D]*?name[^>]*?>([^<]*)'
-        
-
-        #groupsolt = response.xpath('//[@class="grouptableslot"]').extract()
-        teamNames = response.xpath('//div[contains(@class, "team-name")]/text()').extract()
         body = response.body
         body = body.decode('utf-8')
-        data = re.findall(r'"[>]*team[^"]*?">([^<]*)', body)
-        data2 = re.findall(r'"[>]*team[\d\D]*?name[^>]*?>([^<]*)', body)
 
-        with open('teams.csv', 'a') as csvfile:
+        teamNames = self.search_teams(body)
+
+        with open('Results.csv', 'a') as csvfile:
             spamwriter = csv.writer(csvfile, delimiter=',',quotechar='|', quoting=csv.QUOTE_MINIMAL)
-            spamwriter.writerow(['Team Name'])
+
+            # Write URL
+            spamwriter.writerow([response.request.url])
+
+            # Write Teams
             for teamName in teamNames:
-                spamwriter.writerow([teamName])
-
-        with open('data1.csv', 'a') as csvfile:
-            spamwriter = csv.writer(csvfile, delimiter=',',quotechar='|', quoting=csv.QUOTE_MINIMAL)
-            spamwriter.writerow(['Team Name'])
-            for teamName in data2:
-                spamwriter.writerow([teamName])
-
-        with open('data2.csv', 'a') as csvfile:
-            spamwriter = csv.writer(csvfile, delimiter=',',quotechar='|', quoting=csv.QUOTE_MINIMAL)
-            spamwriter.writerow(['Team Name'])
-            for teamName in data2:
-                spamwriter.writerow([teamName])
-
-                
-
-        print(data)
-        print(data2)
-        #print(body)
-
-        print('Ctrl + C')
-        time.sleep(1)
+                spamwriter.writerow(['','Team Name', teamName])
 
         yield {'teamName':teamNames}
+
+    def search_teams(self, body):
+        # Team Regex
+        # teamNames = re.findall(r'"[>]*team[^"]*?">([^<]*)', body)
+        teamNames = re.findall(r'"[>]*team[\d\D]*?name[^>]*?>([^<]*)', body)
+
+        return self.clean_list(teamNames)
+
+    def clean_list(self, data):
+        return list(set(data) - {'|','Unknown'})
