@@ -24,8 +24,11 @@ class Player(scrapy.Item):
     country = scrapy.Field()
 
 class Match(scrapy.Item):
-	team1 = scrapy.Field()
-	score1 = scrapy.Field()
-	team2 = scrapy.Field()
-	score2 = scrapy.Field()
+    team1 = scrapy.Field()
+    score1 = scrapy.Field()
+    team2 = scrapy.Field()
+    score2 = scrapy.Field()
+    date = scrapy.Field()
+    time = scrapy.Field()
+    event = scrapy.Field()
 	

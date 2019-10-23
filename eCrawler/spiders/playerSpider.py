@@ -38,3 +38,6 @@ class PlayerspiderSpider(CrawlSpider):
             player['team'] = player['team'].strip()
 
         return player
+
+    def parse_team(self, response):
+        return response.css('.teamName::text').extract()
