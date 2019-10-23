@@ -1,58 +1,2466 @@
 [
-{"nick": "bit", "name": "Bruno Lima", "country": "Brazil", "age": "29 years", "team": "TeamOne"},
-{"nick": "Lekr0", "name": "Jonas Olofsson", "country": "Sweden", "age": "26 years", "team": "NiP"},
-{"nick": "Brollan", "name": "Ludvig Brolin", "country": "Sweden", "age": "17 years", "team": "fnatic"},
-{"nick": "olofmeister", "name": "Olof Kajbjer", "country": "Sweden", "age": "27 years", "team": "FaZe"},
-{"nick": "Golden", "name": "Maikil Selim", "country": "Sweden", "age": "25 years", "team": "fnatic"},
-{"nick": "flusha", "name": "Robin R\u00f6nnquist", "country": "Sweden", "age": "26 years", "team": "fnatic"},
-{"nick": "Xizt", "name": "Richard Landstr\u00f6m", "country": "Sweden", "age": "28 years", "team": null},
-{"nick": "GeT_RiGhT", "name": "Christopher Alesund", "country": "Sweden", "age": "29 years", "team": null},
-{"nick": "oskar", "name": "Tom\u00e1\u0161 \u0160\u0165astn\u00fd", "country": "Czech Republic", "age": "28 years", "team": null},
-{"nick": "frozen", "name": "David \u010cer\u0148ansk\u00fd", "country": "Slovakia", "age": "17 years", "team": "mousesports"},
-{"nick": "Spiidi", "name": "Timo Richter", "country": "Germany", "age": "24 years", "team": "Sprout"},
-{"nick": "Snax", "name": "Janusz Pogorzelski", "country": "Poland", "age": "26 years", "team": "Virtus.pro"},
-{"nick": "STYKO", "name": "Martin Styk", "country": "Slovakia", "age": "23 years", "team": "SMASH"},
-{"nick": "suNny", "name": "Miikka Kemppi", "country": "Finland", "age": "25 years", "team": "ENCE"},
-{"nick": "Maden", "name": "Pavle Bo\u0161kovi\u0107", "country": "Serbia", "age": "20 years", "team": "SMASH"},
-{"nick": "Twixie", "name": "Samuli Herrala", "country": "Finland", "age": "17 years", "team": "KOVA"},
-{"nick": "snatchie", "name": "Micha\u0142 Rudzki", "country": "Poland", "age": "21 years", "team": "Virtus.pro"},
-{"nick": "sergej", "name": "Jere Salo", "country": "Finland", "age": "17 years", "team": "ENCE"},
-{"nick": "kRYSTAL", "name": "Kevin Amend", "country": "Germany", "age": "26 years", "team": "SMASH"},
-{"nick": "peku", "name": "Petteri Jaakkola", "country": "Finland", "age": "23 years", "team": "KOVA"},
-{"nick": "Aerial", "name": "Jani Jussila", "country": "Finland", "age": "26 years", "team": "ENCE"},
-{"nick": "pietola", "name": "Lauri Hietala", "country": "Finland", "age": "21 years", "team": "KOVA"},
-{"nick": "xseveN", "name": "Sami Laasanen", "country": "Finland", "age": "25 years", "team": "ENCE"},
-{"nick": "doto", "name": "Joonas Forss", "country": "Finland", "age": "23 years", "team": "HAVU"},
-{"nick": "sLowi", "name": "Olli Pitk\u00e4nen", "country": "Finland", "age": "23 years", "team": "HAVU"},
-{"nick": "hoody", "name": "Aaro Peltokangas", "country": "Finland", "age": "21 years", "team": "HAVU"},
-{"nick": "b4rtiN", "name": "Bruno C\u00e2mara", "country": "Brazil", "age": "17 years", "team": "TeamOne"},
-{"nick": "iDk", "name": "Victor Torraca", "country": "Brazil", "age": "21 years", "team": "Imperial"},
-{"nick": "ZOREE", "name": "Lasse Uronen", "country": "Finland", "age": "26 years", "team": "HAVU"},
-{"nick": "horvy", "name": "Jo\u00e3o Horvath", "country": "Brazil", "age": "21 years", "team": "Reapers"},
-{"nick": "Maluk3", "name": "Pedro Campos", "country": "Brazil", "age": "29 years", "team": "TeamOne"},
-{"nick": "oskarish", "name": "Oskar Stenborowski", "country": "Poland", "age": "22 years", "team": "Illuminar"},
-{"nick": "dennis", "name": "Dennis Edman", "country": "Sweden", "age": "28 years", "team": "GamerLegion"},
-{"nick": "f0rest", "name": "Patrik Lindberg", "country": "Sweden", "age": "31 years", "team": "NiP"},
-{"nick": "reatz", "name": "Pawe\u0142 Ja\u0144czak", "country": "Poland", "age": "24 years", "team": "Illuminar"},
-{"nick": "MICHU", "name": "Micha\u0142 M\u00fcller", "country": "Poland", "age": "22 years", "team": "Virtus.pro"},
-{"nick": "mono", "name": "Micha\u0142 Gabszewicz", "country": "Poland", "age": "24 years", "team": "Illuminar"},
-{"nick": "TaZ", "name": "Wiktor Wojtas", "country": "Poland", "age": "33 years", "team": "Aristocracy"},
-{"nick": "dycha", "name": "Pawe\u0142 Dycha", "country": "Poland", "age": "22 years", "team": "Aristocracy"},
-{"nick": "hampus", "name": "Hampus Poser", "country": "Sweden", "age": "20 years", "team": "GamerLegion"},
-{"nick": "kaper", "name": "Kacper S\u0142oma", "country": "Poland", "age": "24 years", "team": "Wisla Krakow"},
-{"nick": "RuStY", "name": "Alfred Karlsson", "country": "Sweden", "age": "22 years", "team": "GamerLegion"},
-{"nick": "innocent", "name": "Pawe\u0142 Mocek", "country": "Poland", "age": "25 years", "team": "Illuminar"},
-{"nick": "MINISE", "name": "Jacek Jeziak", "country": "Poland", "age": "25 years", "team": "Aristocracy"},
-{"nick": "emagine", "name": "Chris Rowlands", "country": "Australia", "age": "28 years", "team": "ORDER"},
-{"nick": "mynio", "name": "Wiktor Kruk", "country": "Poland", "age": "24 years", "team": "Wisla Krakow"},
-{"nick": "jedqr", "name": "Grzegorz J\u0119dras", "country": "Poland", "age": "20 years", "team": "Wisla Krakow"},
-{"nick": "InfrequeNt", "name": "Jesse Barker", "country": "Australia", "age": "25 years", "team": null},
-{"nick": "IyeN", "name": "Iyengaran Raju", "country": "Australia", "age": "22 years", "team": null},
-{"nick": "ap0c", "name": "Mike Aliferis", "country": "Australia", "age": "32 years", "team": "AVANT"},
-{"nick": "malta", "name": "Liam Schembri", "country": "Australia", "age": "23 years", "team": "Grayhound"}
-][
-{"nick": "ShahZaM", "name": "Shahzeb Khan", "country": "United States", "age": "26 years", "team": "Complexity"},
-{"nick": "zhokiNg", "name": "WeiJie Zhong", "country": "China", "age": "25 years", "team": "ViCi"},
-{"nick": "horvy", "name": "Jo\u00e3o Horvath", "country": "Brazil", "age": "21 years", "team": "Reapers"},
-{"nick": "oBo", "name": "Owen Schlatter", "country": "United States", "age": "16 years", "team": "Complexity"}
+  {
+    "age": "25 years",
+    "country": "China",
+    "name": "WeiJie Zhong",
+    "nick": "zhokiNg",
+    "team": "ViCi"
+  },
+  {
+    "age": "27 years",
+    "country": "China",
+    "name": "Zhuo Liang",
+    "nick": "advent",
+    "team": "ViCi"
+  },
+  {
+    "age": "25 years",
+    "country": "China",
+    "name": "ZhiHong Liu",
+    "nick": "aumaN",
+    "team": "ViCi"
+  },
+  {
+    "age": "25 years",
+    "country": "Malaysia",
+    "name": "Andrew Khong",
+    "nick": "Kaze",
+    "team": "ViCi"
+  },
+  {
+    "age": "24 years",
+    "country": "Germany",
+    "name": "Markus Reitenbach",
+    "nick": "maRky",
+    "team": null
+  },
+  {
+    "age": "24 years",
+    "country": "Germany",
+    "name": "Johannes Wodarz",
+    "nick": "tabseN",
+    "team": "BIG"
+  },
+  {
+    "age": "20 years",
+    "country": "United Kingdom",
+    "name": "Owen Butterfield",
+    "nick": "smooya",
+    "team": "BIG"
+  },
+  {
+    "age": "27 years",
+    "country": "Germany",
+    "name": "Johannes Maget",
+    "nick": "nex",
+    "team": "BIG"
+  },
+  {
+    "age": "24 years",
+    "country": "Turkey",
+    "name": "Ismailcan Dörtkardeş",
+    "nick": "XANTARES",
+    "team": "BIG"
+  },
+  {
+    "age": "25 years",
+    "country": "Germany",
+    "name": "Denis Howell",
+    "nick": "denis",
+    "team": "Sprout"
+  },
+  {
+    "age": "19 years",
+    "country": "Germany",
+    "name": "Josef Baumann",
+    "nick": "faveN",
+    "team": "Sprout"
+  },
+  {
+    "age": "24 years",
+    "country": "Germany",
+    "name": "Timo Richter",
+    "nick": "Spiidi",
+    "team": "Sprout"
+  },
+  {
+    "age": "24 years",
+    "country": "Germany",
+    "name": "Lukas Kauer",
+    "nick": "ecfN",
+    "team": "No Limit"
+  },
+  {
+    "age": "24 years",
+    "country": "Germany",
+    "name": "Robin Röpke",
+    "nick": "ScrunK",
+    "team": "No Limit"
+  },
+  {
+    "age": "22 years",
+    "country": "Austria",
+    "name": "Christoph Kröll",
+    "nick": "chrissK",
+    "team": "No Limit"
+  },
+  {
+    "age": "29 years",
+    "country": "Germany",
+    "name": "Oliver Heck",
+    "nick": "kzy",
+    "team": "Unicorns of Love"
+  },
+  {
+    "age": "22 years",
+    "country": "Germany",
+    "name": "Andreas Schäfer",
+    "nick": "Andyy",
+    "team": "Unicorns of Love"
+  },
+  {
+    "age": "22 years",
+    "country": "Poland",
+    "name": "Michal Glowaty",
+    "nick": "OKOLICIOUZ",
+    "team": "Unicorns of Love"
+  },
+  {
+    "age": "19 years",
+    "country": "Germany",
+    "name": "Jon de Castro",
+    "nick": "JDC",
+    "team": "Unicorns of Love"
+  },
+  {
+    "age": "28 years",
+    "country": "Denmark",
+    "name": "Nicolai Petersen",
+    "nick": "HUNDEN",
+    "team": "Tricked"
+  },
+  {
+    "age": "20 years",
+    "country": "Denmark",
+    "name": "Rasmus Beck",
+    "nick": "sjuush",
+    "team": "Tricked"
+  },
+  {
+    "age": "25 years",
+    "country": "Denmark",
+    "name": "Fredrik Jørgensen",
+    "nick": "roeJ",
+    "team": "Tricked"
+  },
+  {
+    "age": "22 years",
+    "country": "Denmark",
+    "name": "Frederik Gyldstrand",
+    "nick": "acoR",
+    "team": "Tricked"
+  },
+  {
+    "age": "21 years",
+    "country": "Denmark",
+    "name": "Lucas Andersen",
+    "nick": "Bubzkji",
+    "team": "Tricked"
+  },
+  {
+    "age": "26 years",
+    "country": "Germany",
+    "name": "Kevin Amend",
+    "nick": "kRYSTAL",
+    "team": "SMASH"
+  },
+  {
+    "age": "28 years",
+    "country": "Sweden",
+    "name": "Mikail Bill",
+    "nick": "Maikelele",
+    "team": "SMASH"
+  },
+  {
+    "age": "23 years",
+    "country": "Slovakia",
+    "name": "Martin Styk",
+    "nick": "STYKO",
+    "team": "SMASH"
+  },
+  {
+    "age": "27 years",
+    "country": "Finland",
+    "name": "Jesse Linjala",
+    "nick": "zehN",
+    "team": "SMASH"
+  },
+  {
+    "age": "20 years",
+    "country": "Serbia",
+    "name": "Pavle Bošković",
+    "nick": "Maden",
+    "team": "SMASH"
+  },
+  {
+    "age": "20 years",
+    "country": "Germany",
+    "name": "Nils Gruhne",
+    "nick": "k1to",
+    "team": "Sprout"
+  },
+  {
+    "age": "27 years",
+    "country": "Germany",
+    "name": "Christian Schmitt",
+    "nick": "crisby",
+    "team": "Unicorns of Love"
+  },
+  {
+    "age": "25 years",
+    "country": "Norway",
+    "name": "Ruben Villarroel",
+    "nick": "RUBINO",
+    "team": "Nordavind"
+  },
+  {
+    "age": "23 years",
+    "country": "Germany",
+    "name": "Tizian Feldbusch",
+    "nick": "tiziaN",
+    "team": "BIG"
+  },
+  {
+    "age": "23 years",
+    "country": "Denmark",
+    "name": "Mads Skovby",
+    "nick": "Console",
+    "team": null
+  },
+  {
+    "age": "23 years",
+    "country": "Germany",
+    "name": "Florian Rische",
+    "nick": "syrsoN",
+    "team": "Sprout"
+  },
+  {
+    "age": "32 years",
+    "country": "Germany",
+    "name": "Fatih Dayik",
+    "nick": "gob b",
+    "team": null
+  },
+  {
+    "age": "22 years",
+    "country": "Poland",
+    "name": "Oskar Stenborowski",
+    "nick": "oskarish",
+    "team": "Illuminar"
+  },
+  {
+    "age": "24 years",
+    "country": "Poland",
+    "name": "Michał Gabszewicz",
+    "nick": "mono",
+    "team": "Illuminar"
+  },
+  {
+    "age": "25 years",
+    "country": "Poland",
+    "name": "Paweł Mocek",
+    "nick": "innocent",
+    "team": "Illuminar"
+  },
+  {
+    "age": "24 years",
+    "country": "Poland",
+    "name": "Paweł Jańczak",
+    "nick": "reatz",
+    "team": "Illuminar"
+  },
+  {
+    "age": "24 years",
+    "country": "Poland",
+    "name": "Daniel Płomiński",
+    "nick": "STOMP",
+    "team": "Illuminar"
+  },
+  {
+    "age": "20 years",
+    "country": "Germany",
+    "name": "Fritz Dietrich",
+    "nick": "slaxz-",
+    "team": "ALTERNATE aTTaX"
+  },
+  {
+    "age": "23 years",
+    "country": "Germany",
+    "name": "Marko Đordević",
+    "nick": "kressy",
+    "team": "ALTERNATE aTTaX"
+  },
+  {
+    "age": "22 years",
+    "country": "United Kingdom",
+    "name": "Mateusz Wilczewski",
+    "nick": "mantuu",
+    "team": "ALTERNATE aTTaX"
+  },
+  {
+    "age": "26 years",
+    "country": "Germany",
+    "name": "Dustin Großmann",
+    "nick": "DuDe",
+    "team": "ALTERNATE aTTaX"
+  },
+  {
+    "age": "26 years",
+    "country": "Germany",
+    "name": "Stefan Seier",
+    "nick": "stfN",
+    "team": "ALTERNATE aTTaX"
+  },
+  {
+    "age": "25 years",
+    "country": "China",
+    "name": "Lei Mao",
+    "nick": "bottle",
+    "team": "5POWER"
+  },
+  {
+    "age": "30 years",
+    "country": "China",
+    "name": "Bin Liu",
+    "nick": "Savage",
+    "team": "5POWER"
+  },
+  {
+    "age": "19 years",
+    "country": "China",
+    "name": "Lifan Ran",
+    "nick": "Viva",
+    "team": "5POWER"
+  },
+  {
+    "age": "29 years",
+    "country": "China",
+    "name": "Peng Song",
+    "nick": "xiaosaGe",
+    "team": "5POWER"
+  },
+  {
+    "age": "29 years",
+    "country": "China",
+    "name": "Wei Wang",
+    "nick": "shuadapai",
+    "team": "5POWER"
+  },
+  {
+    "age": "27 years",
+    "country": "China",
+    "name": "QiFang Su",
+    "nick": "Karsa",
+    "team": "OneThree"
+  },
+  {
+    "age": "18 years",
+    "country": "China",
+    "name": "Liu Qi",
+    "nick": "lan",
+    "team": "OneThree"
+  },
+  {
+    "age": "21 years",
+    "country": "China",
+    "name": "Yue Yu",
+    "nick": "AE",
+    "team": "OneThree"
+  },
+  {
+    "age": "21 years",
+    "country": "Indonesia",
+    "name": "Kevin Susanto",
+    "nick": "xccurate",
+    "team": "BTRG"
+  },
+  {
+    "age": "26 years",
+    "country": "Ukraine",
+    "name": "Vladyslav Nechyporchuk",
+    "nick": "bondik",
+    "team": "Winstrike"
+  },
+  {
+    "age": "20 years",
+    "country": "Kazakhstan",
+    "name": "Aidyn Turlybekov",
+    "nick": "KrizzeN",
+    "team": "Winstrike"
+  },
+  {
+    "age": "20 years",
+    "country": "Russia",
+    "name": "Aleksey Gusev",
+    "nick": "El1an",
+    "team": "Winstrike"
+  },
+  {
+    "age": "25 years",
+    "country": "Kazakhstan",
+    "name": "Abay Khasenov",
+    "nick": "Hobbit",
+    "team": "Winstrike"
+  },
+  {
+    "age": "23 years",
+    "country": "Singapore",
+    "name": "Anthony Lim",
+    "nick": "ImpressioN",
+    "team": "BTRG"
+  },
+  {
+    "age": "21 years",
+    "country": "Indonesia",
+    "name": "Adrian Setiawan",
+    "nick": "adrnkiNg",
+    "team": "BTRG"
+  },
+  {
+    "age": "25 years",
+    "country": "China",
+    "name": "Hui Wu",
+    "nick": "DD",
+    "team": "OneThree"
+  },
+  {
+    "age": "29 years",
+    "country": "China",
+    "name": "Zhen Huang",
+    "nick": "HZ",
+    "team": null
+  },
+  {
+    "age": "30 years",
+    "country": "China",
+    "name": "Ke Liu",
+    "nick": "captainMo",
+    "team": "OneThree"
+  },
+  {
+    "age": "20 years",
+    "country": "Hong Kong",
+    "name": "WingHei Cheung",
+    "nick": "Freeman",
+    "team": "TYLOO"
+  },
+  {
+    "age": "24 years",
+    "country": "China",
+    "name": "HaoWen Xu",
+    "nick": "somebody",
+    "team": "TYLOO"
+  },
+  {
+    "age": "22 years",
+    "country": "China",
+    "name": "YuanZhang Sheng",
+    "nick": "Attacker",
+    "team": "TYLOO"
+  },
+  {
+    "age": "24 years",
+    "country": "Indonesia",
+    "name": "Hansel Ferdinand",
+    "nick": "BnTeT",
+    "team": "TYLOO"
+  },
+  {
+    "age": "22 years",
+    "country": "China",
+    "name": "YuLun Cai",
+    "nick": "Summer",
+    "team": "TYLOO"
+  },
+  {
+    "age": "23 years",
+    "country": "Russia",
+    "name": "Vadim Vasilyev",
+    "nick": "DavCost",
+    "team": "Melbet"
+  },
+  {
+    "age": "23 years",
+    "country": "Russia",
+    "name": "Dmitriy Senigov",
+    "nick": "propleh",
+    "team": "Melbet"
+  },
+  {
+    "age": "26 years",
+    "country": "Russia",
+    "name": "Anton Kolesnikov",
+    "nick": "tonyblack",
+    "team": "Melbet"
+  },
+  {
+    "age": "26 years",
+    "country": "Russia",
+    "name": "Aleksey Zimin",
+    "nick": "1uke",
+    "team": null
+  },
+  {
+    "age": "30 years",
+    "country": "Ukraine",
+    "name": "Kirill Karasiow",
+    "nick": "ANGE1",
+    "team": "HellRaisers"
+  },
+  {
+    "age": "19 years",
+    "country": "Kazakhstan",
+    "name": "Sanzhar Ishkakov",
+    "nick": "neaLaN",
+    "team": "Syman"
+  },
+  {
+    "age": "18 years",
+    "country": "Belgium",
+    "name": "Nicolas Dgus",
+    "nick": "Keoz",
+    "team": "Syman"
+  },
+  {
+    "age": "19 years",
+    "country": "Kazakhstan",
+    "name": "Ramazan Bashizov",
+    "nick": "Ramz1kBO$$",
+    "team": "Syman"
+  },
+  {
+    "age": "19 years",
+    "country": "Russia",
+    "name": "Ilya Zalutskiy",
+    "nick": "Perfecto",
+    "team": "Syman"
+  },
+  {
+    "age": "18 years",
+    "country": "Russia",
+    "name": "David Danielyan",
+    "nick": "n0rb3r7",
+    "team": "Syman"
+  },
+  {
+    "age": "24 years",
+    "country": "Ukraine",
+    "name": "Igor Shevchenko",
+    "nick": "crush",
+    "team": "HellRaisers"
+  },
+  {
+    "age": "23 years",
+    "country": "Latvia",
+    "name": "Vadim Karetin",
+    "nick": "Flarich",
+    "team": "HellRaisers"
+  },
+  {
+    "age": "21 years",
+    "country": "Ukraine",
+    "name": "Alexander Marynych",
+    "nick": "scoobyxie",
+    "team": "HellRaisers"
+  },
+  {
+    "age": "21 years",
+    "country": "Lithuania",
+    "name": "Žygimantas Chmieliauskas",
+    "nick": "nukkye",
+    "team": "HellRaisers"
+  },
+  {
+    "age": "23 years",
+    "country": "Russia",
+    "name": "Nikolay Bityukov",
+    "nick": "mir",
+    "team": "Spirit"
+  },
+  {
+    "age": "22 years",
+    "country": "Russia",
+    "name": "Artem Egorov",
+    "nick": "iDISBALANCE",
+    "team": "Spirit"
+  },
+  {
+    "age": "22 years",
+    "country": "Russia",
+    "name": "Leonid Vishnyakov",
+    "nick": "chopper",
+    "team": "Spirit"
+  },
+  {
+    "age": "22 years",
+    "country": "Ukraine",
+    "name": "Viktor Orudjev",
+    "nick": "somedieyoung",
+    "team": "Spirit"
+  },
+  {
+    "age": "23 years",
+    "country": "Kazakhstan",
+    "name": "Dmitry Matvienko",
+    "nick": "dimasick",
+    "team": "pro100"
+  },
+  {
+    "age": "25 years",
+    "country": "Russia",
+    "name": "Jan Rahkonen",
+    "nick": "wayLander",
+    "team": "pro100"
+  },
+  {
+    "age": "22 years",
+    "country": "Russia",
+    "name": "Alexey Trofimov",
+    "nick": "NickelBack",
+    "team": "pro100"
+  },
+  {
+    "age": "20 years",
+    "country": "Latvia",
+    "name": "Mareks Gaļinskis",
+    "nick": "YEKINDAR",
+    "team": "pro100"
+  },
+  {
+    "age": "28 years",
+    "country": "Russia",
+    "name": "Georgi Yaskin",
+    "nick": "WorldEdit",
+    "team": "pro100"
+  },
+  {
+    "age": "25 years",
+    "country": "Russia",
+    "name": "Denis Kostin",
+    "nick": "seized",
+    "team": null
+  },
+  {
+    "age": "29 years",
+    "country": "Kazakhstan",
+    "name": "Dauren Kystaubayev",
+    "nick": "AdreN",
+    "team": "AVANGAR"
+  },
+  {
+    "age": "21 years",
+    "country": "Uzbekistan",
+    "name": "Sanjar Kuliev",
+    "nick": "SANJI",
+    "team": "AVANGAR"
+  },
+  {
+    "age": "20 years",
+    "country": "Kazakhstan",
+    "name": "Alexey Golubev",
+    "nick": "qikert",
+    "team": "AVANGAR"
+  },
+  {
+    "age": "19 years",
+    "country": "Kazakhstan",
+    "name": "Timur Tulepov",
+    "nick": "buster",
+    "team": "AVANGAR"
+  },
+  {
+    "age": "21 years",
+    "country": "Russia",
+    "name": "Dzhami Ali",
+    "nick": "Jame",
+    "team": "AVANGAR"
+  },
+  {
+    "age": "17 years",
+    "country": "Russia",
+    "name": "Sergey Rykhtorov",
+    "nick": "Ax1Le",
+    "team": "Gambit Youngsters"
+  },
+  {
+    "age": "18 years",
+    "country": "Russia",
+    "name": "Vladislav Gorshkov",
+    "nick": "nafany",
+    "team": "Gambit Youngsters"
+  },
+  {
+    "age": "19 years",
+    "country": "Russia",
+    "name": "Timofey Yakushin",
+    "nick": "interz",
+    "team": "Gambit Youngsters"
+  },
+  {
+    "age": "18 years",
+    "country": "Estonia",
+    "name": "Anton Tšernobai",
+    "nick": "supra",
+    "team": "Gambit Youngsters"
+  },
+  {
+    "age": "18 years",
+    "country": "Russia",
+    "name": "Dmitry Sokolov",
+    "nick": "sh1ro",
+    "team": "Gambit Youngsters"
+  },
+  {
+    "age": "32 years",
+    "country": "Ukraine",
+    "name": "Danylo Teslenko",
+    "nick": "Zeus",
+    "team": null
+  },
+  {
+    "age": "27 years",
+    "country": "Kazakhstan",
+    "name": "Bektiyar Bahytov",
+    "nick": "fitch",
+    "team": null
+  },
+  {
+    "age": "28 years",
+    "country": "Kazakhstan",
+    "name": "Rustem Telepov",
+    "nick": "mou",
+    "team": "Gambit"
+  },
+  {
+    "age": "31 years",
+    "country": "Russia",
+    "name": "Mihail Stolyarov",
+    "nick": "Dosia",
+    "team": "Gambit"
+  },
+  {
+    "age": "24 years",
+    "country": "Russia",
+    "name": "Pavel Lashkov",
+    "nick": "hutji",
+    "team": "buaksib"
+  },
+  {
+    "age": "21 years",
+    "country": "Kazakhstan",
+    "name": "Alikhan Kopzhanov",
+    "nick": "w1nt3r",
+    "team": "Se7en"
+  },
+  {
+    "age": "23 years",
+    "country": "Belarus",
+    "name": "Igor Solodkov",
+    "nick": "lollipop21k",
+    "team": "Nemiga"
+  },
+  {
+    "age": "24 years",
+    "country": "Belarus",
+    "name": "Anton Burko",
+    "nick": "boX",
+    "team": "Nemiga"
+  },
+  {
+    "age": "24 years",
+    "country": "Estonia",
+    "name": "Rassim Valijev",
+    "nick": "Jyo",
+    "team": "Nemiga"
+  },
+  {
+    "age": "21 years",
+    "country": "Belarus",
+    "name": "Aleksandr Rubets",
+    "nick": "mds",
+    "team": "Nemiga"
+  },
+  {
+    "age": "27 years",
+    "country": "Belarus",
+    "name": "Vladimir Neskey",
+    "nick": "ROBO",
+    "team": "Nemiga"
+  },
+  {
+    "age": "24 years",
+    "country": "Russia",
+    "name": "Dmitriy Bandurka",
+    "nick": "Dima",
+    "team": null
+  },
+  {
+    "age": "27 years",
+    "country": "Ukraine",
+    "name": "Pavel Veklenko",
+    "nick": "COLDYY1",
+    "team": null
+  },
+  {
+    "age": "25 years",
+    "country": "Russia",
+    "name": "Dmitry Forostyanko",
+    "nick": "S0tF1k",
+    "team": null
+  },
+  {
+    "age": "22 years",
+    "country": "United States",
+    "name": "Matt Wilson",
+    "nick": "Pollo",
+    "team": "Old Guys Club"
+  },
+  {
+    "age": "25 years",
+    "country": "Canada",
+    "name": "Peter Jarguz",
+    "nick": "stanislaw",
+    "team": "Evil Geniuses"
+  },
+  {
+    "age": "23 years",
+    "country": "United States",
+    "name": "Tarik Celik",
+    "nick": "tarik",
+    "team": "Evil Geniuses"
+  },
+  {
+    "age": "19 years",
+    "country": "United States",
+    "name": "Ethan Arnold",
+    "nick": "Ethan",
+    "team": "Evil Geniuses"
+  },
+  {
+    "age": "19 years",
+    "country": "Bulgaria",
+    "name": "Tsvetelin Dimitrov",
+    "nick": "CeRq",
+    "team": "Evil Geniuses"
+  },
+  {
+    "age": "21 years",
+    "country": "United States",
+    "name": "Vincent Cayonte",
+    "nick": "Brehze",
+    "team": "Evil Geniuses"
+  },
+  {
+    "age": "27 years",
+    "country": "Canada",
+    "name": "Pujan Mehta",
+    "nick": "FNS",
+    "team": "Riot Squad"
+  },
+  {
+    "age": "23 years",
+    "country": "United States",
+    "name": "Mitch Semago",
+    "nick": "mitch",
+    "team": "Riot Squad"
+  },
+  {
+    "age": "21 years",
+    "country": "United Kingdom",
+    "name": "Thomas Utting",
+    "nick": "Thomas",
+    "team": "Phoenix"
+  },
+  {
+    "age": "22 years",
+    "country": "Albania",
+    "name": "Flatron Halimi",
+    "nick": "juanflatroo",
+    "team": "Phoenix"
+  },
+  {
+    "age": "21 years",
+    "country": "United States",
+    "name": "Hunter Mims",
+    "nick": "SicK",
+    "team": null
+  },
+  {
+    "age": "27 years",
+    "country": "Australia",
+    "name": "Ricardo Mulholland",
+    "nick": "Rickeh",
+    "team": null
+  },
+  {
+    "age": "23 years",
+    "country": "United States",
+    "name": "Timothy Ta",
+    "nick": "autimatic",
+    "team": "Cloud9"
+  },
+  {
+    "age": "26 years",
+    "country": "Canada",
+    "name": "Damian Steele",
+    "nick": "daps",
+    "team": "Cloud9"
+  },
+  {
+    "age": "22 years",
+    "country": "Canada",
+    "name": "Yassine Taoufik",
+    "nick": "Subroza",
+    "team": "Cloud9"
+  },
+  {
+    "age": "23 years",
+    "country": "United States",
+    "name": "Kenneth Suen",
+    "nick": "koosta",
+    "team": "Cloud9"
+  },
+  {
+    "age": "24 years",
+    "country": "Spain",
+    "name": "Oscar Cañellas",
+    "nick": "mixwell",
+    "team": "Cloud9"
+  },
+  {
+    "age": "23 years",
+    "country": "United States",
+    "name": "Braxton Pierce",
+    "nick": "swag",
+    "team": "Swole Patrol"
+  },
+  {
+    "age": "17 years",
+    "country": "United States",
+    "name": "Jason Tran",
+    "nick": "neptune",
+    "team": "Swole Patrol"
+  },
+  {
+    "age": "29 years",
+    "country": "United States",
+    "name": "Spencer Martin",
+    "nick": "Hiko",
+    "team": null
+  },
+  {
+    "age": "25 years",
+    "country": "Canada",
+    "name": "Bradley Fodor",
+    "nick": "ANDROID",
+    "team": "Envy"
+  },
+  {
+    "age": "18 years",
+    "country": "United States",
+    "name": "Ryan Welsh",
+    "nick": "ryann",
+    "team": "Envy"
+  },
+  {
+    "age": "17 years",
+    "country": "United States",
+    "name": "Sam Oh",
+    "nick": "s0m",
+    "team": "Envy"
+  },
+  {
+    "age": "24 years",
+    "country": "United States",
+    "name": "Jacob Medina",
+    "nick": "FugLy",
+    "team": "Envy"
+  },
+  {
+    "age": "21 years",
+    "country": "United States",
+    "name": "Noah Francis",
+    "nick": "Nifty",
+    "team": "Envy"
+  },
+  {
+    "age": "28 years",
+    "country": "United States",
+    "name": "Jordan Gilbert",
+    "nick": "n0thing",
+    "team": null
+  },
+  {
+    "age": "30 years",
+    "country": "United States",
+    "name": "Soham Chowdhury",
+    "nick": "valens",
+    "team": null
+  },
+  {
+    "age": "29 years",
+    "country": "United States",
+    "name": "Peter Gurney",
+    "nick": "ptr",
+    "team": "Riot Squad"
+  },
+  {
+    "age": "21 years",
+    "country": "United States",
+    "name": "Jaccob Whiteaker",
+    "nick": "yay",
+    "team": null
+  },
+  {
+    "age": "22 years",
+    "country": "Denmark",
+    "name": "Benjamin Bremer",
+    "nick": "blameF",
+    "team": "Complexity"
+  },
+  {
+    "age": "16 years",
+    "country": "United States",
+    "name": "Owen Schlatter",
+    "nick": "oBo",
+    "team": "Complexity"
+  },
+  {
+    "age": "27 years",
+    "country": "United Kingdom",
+    "name": "Rory Jackson",
+    "nick": "dephh",
+    "team": "Complexity"
+  },
+  {
+    "age": "26 years",
+    "country": "United States",
+    "name": "Shahzeb Khan",
+    "nick": "ShahZaM",
+    "team": "Complexity"
+  },
+  {
+    "age": "25 years",
+    "country": "United States",
+    "name": "William Wierzba",
+    "nick": "RUSH",
+    "team": "Complexity"
+  },
+  {
+    "age": "21 years",
+    "country": "Poland",
+    "name": "Michał Rudzki",
+    "nick": "snatchie",
+    "team": "Virtus.pro"
+  },
+  {
+    "age": "22 years",
+    "country": "Poland",
+    "name": "Sebastian Trela",
+    "nick": "NEEX",
+    "team": "Izako Boars"
+  },
+  {
+    "age": "23 years",
+    "country": "Poland",
+    "name": "Mateusz Zawistowski",
+    "nick": "TOAO",
+    "team": "Izako Boars"
+  },
+  {
+    "age": "26 years",
+    "country": "Poland",
+    "name": "Janusz Pogorzelski",
+    "nick": "Snax",
+    "team": "Virtus.pro"
+  },
+  {
+    "age": "19 years",
+    "country": "Poland",
+    "name": "Arek Nawojski",
+    "nick": "Vegi",
+    "team": "Virtus.pro"
+  },
+  {
+    "age": "23 years",
+    "country": "Poland",
+    "name": "Tomasz Wójcik",
+    "nick": "phr",
+    "team": "Virtus.pro"
+  },
+  {
+    "age": "22 years",
+    "country": "Poland",
+    "name": "Michał Müller",
+    "nick": "MICHU",
+    "team": "Virtus.pro"
+  },
+  {
+    "age": "20 years",
+    "country": "Bulgaria",
+    "name": "Valentin Vasilev",
+    "nick": "poizon",
+    "team": "Windigo"
+  },
+  {
+    "age": "22 years",
+    "country": "Germany",
+    "name": "Sabit Coktasar",
+    "nick": "mirbit",
+    "team": "Windigo"
+  },
+  {
+    "age": "28 years",
+    "country": "Bulgaria",
+    "name": "Kamen Kostadinov",
+    "nick": "bubble",
+    "team": "Windigo"
+  },
+  {
+    "age": "22 years",
+    "country": "Bulgaria",
+    "name": "Yanko Panov",
+    "nick": "blocker",
+    "team": "Windigo"
+  },
+  {
+    "age": "23 years",
+    "country": "France",
+    "name": "Ali Haïnouss",
+    "nick": "hAdji",
+    "team": "Windigo"
+  },
+  {
+    "age": "20 years",
+    "country": "Poland",
+    "name": "Patryk Fabrowski",
+    "nick": "Patitek",
+    "team": "Izako Boars"
+  },
+  {
+    "age": "19 years",
+    "country": "Sweden",
+    "name": "Denis Gutaj",
+    "nick": "grux",
+    "team": "Meanwhile"
+  },
+  {
+    "age": "22 years",
+    "country": "Denmark",
+    "name": "Kristian Wienecke",
+    "nick": "k0nfig",
+    "team": "Meanwhile"
+  },
+  {
+    "age": "23 years",
+    "country": "Denmark",
+    "name": "Niels-Christian Sillassen",
+    "nick": "NaToSaphiX",
+    "team": "Meanwhile"
+  },
+  {
+    "age": "22 years",
+    "country": "Estonia",
+    "name": "Kevin Tarn",
+    "nick": "HS",
+    "team": "Meanwhile"
+  },
+  {
+    "age": "22 years",
+    "country": "Poland",
+    "name": "Konrad Jeńczeń",
+    "nick": "EXUS",
+    "team": "Izako Boars"
+  },
+  {
+    "age": "25 years",
+    "country": "Poland",
+    "name": "Jacek Jeziak",
+    "nick": "MINISE",
+    "team": "Aristocracy"
+  },
+  {
+    "age": "18 years",
+    "country": "Bulgaria",
+    "name": "Alex Petrov",
+    "nick": "Rainwaker",
+    "team": "SKADE"
+  },
+  {
+    "age": "33 years",
+    "country": "Poland",
+    "name": "Wiktor Wojtas",
+    "nick": "TaZ",
+    "team": "Aristocracy"
+  },
+  {
+    "age": "23 years",
+    "country": "Poland",
+    "name": "Mikołaj Karolewski",
+    "nick": "mouz",
+    "team": "Aristocracy"
+  },
+  {
+    "age": "25 years",
+    "country": "Poland",
+    "name": "Karol Rodowicz",
+    "nick": "rallen",
+    "team": "Aristocracy"
+  },
+  {
+    "age": "22 years",
+    "country": "Poland",
+    "name": "Paweł Dycha",
+    "nick": "dycha",
+    "team": "Aristocracy"
+  },
+  {
+    "age": "25 years",
+    "country": "Poland",
+    "name": "Maciek Bugaj",
+    "nick": "Luz",
+    "team": "Izako Boars"
+  },
+  {
+    "age": "25 years",
+    "country": "Poland",
+    "name": "Piotr Taterka",
+    "nick": "morelz",
+    "team": "Wisla Krakow"
+  },
+  {
+    "age": "24 years",
+    "country": "Poland",
+    "name": "Wiktor Kruk",
+    "nick": "mynio",
+    "team": "Wisla Krakow"
+  },
+  {
+    "age": "24 years",
+    "country": "Poland",
+    "name": "Kacper Słoma",
+    "nick": "kaper",
+    "team": "Wisla Krakow"
+  },
+  {
+    "age": "28 years",
+    "country": "Poland",
+    "name": "Grzegorz Dziamałek",
+    "nick": "SZPERO",
+    "team": "Wisla Krakow"
+  },
+  {
+    "age": "20 years",
+    "country": "Poland",
+    "name": "Grzegorz Jędras",
+    "nick": "jedqr",
+    "team": "Wisla Krakow"
+  },
+  {
+    "age": "24 years",
+    "country": "Denmark",
+    "name": "Rasmus Nielsen",
+    "nick": "HooXi",
+    "team": null
+  },
+  {
+    "age": "24 years",
+    "country": "Denmark",
+    "name": "Valdemar Bjørn Vangså",
+    "nick": "valde",
+    "team": null
+  },
+  {
+    "age": "21 years",
+    "country": "Denmark",
+    "name": "Ismail Ali",
+    "nick": "refrezh",
+    "team": null
+  },
+  {
+    "age": "20 years",
+    "country": "Denmark",
+    "name": "Johannes Borup",
+    "nick": "b0RUP",
+    "team": "Heroic"
+  },
+  {
+    "age": "29 years",
+    "country": "Denmark",
+    "name": "Marco Pfeiffer",
+    "nick": "Snappi",
+    "team": "Heroic"
+  },
+  {
+    "age": "17 years",
+    "country": "Denmark",
+    "name": "Martin Lund",
+    "nick": "stavn",
+    "team": "Heroic"
+  },
+  {
+    "age": "23 years",
+    "country": "Denmark",
+    "name": "Dennis Nielsen",
+    "nick": "sycrone",
+    "team": "Maknitude"
+  },
+  {
+    "age": "23 years",
+    "country": "Denmark",
+    "name": "Jacob Lund",
+    "nick": "dragonfly",
+    "team": "Maknitude"
+  },
+  {
+    "age": "23 years",
+    "country": "Denmark",
+    "name": "Patrick Hansen",
+    "nick": "es3tag",
+    "team": "Heroic"
+  },
+  {
+    "age": "24 years",
+    "country": "Denmark",
+    "name": "Casper Møller",
+    "nick": "cadiaN",
+    "team": "Heroic"
+  },
+  {
+    "age": "23 years",
+    "country": "Denmark",
+    "name": "Asger Larsen",
+    "nick": "AcilioN",
+    "team": "Copenhagen Flames"
+  },
+  {
+    "age": "17 years",
+    "country": "Denmark",
+    "name": "Thomas Bundsbæk",
+    "nick": "TMB",
+    "team": "Copenhagen Flames"
+  },
+  {
+    "age": "20 years",
+    "country": "Denmark",
+    "name": "Magnus Olsen",
+    "nick": "Nodios",
+    "team": "Copenhagen Flames"
+  },
+  {
+    "age": "20 years",
+    "country": "Denmark",
+    "name": "Asger Jensen",
+    "nick": "Farlig",
+    "team": "Copenhagen Flames"
+  },
+  {
+    "age": "22 years",
+    "country": "Denmark",
+    "name": "Jakob Hansen",
+    "nick": "JUGi",
+    "team": "North"
+  },
+  {
+    "age": "24 years",
+    "country": "Denmark",
+    "name": "Nicklas Gade",
+    "nick": "gade",
+    "team": "North"
+  },
+  {
+    "age": "23 years",
+    "country": "Denmark",
+    "name": "Philip Aistrup",
+    "nick": "aizy",
+    "team": "North"
+  },
+  {
+    "age": "29 years",
+    "country": "Denmark",
+    "name": "René Borg",
+    "nick": "cajunb",
+    "team": "North"
+  },
+  {
+    "age": "21 years",
+    "country": "Denmark",
+    "name": "Markus Kjærbye",
+    "nick": "Kjaerbye",
+    "team": "North"
+  },
+  {
+    "age": "25 years",
+    "country": "Denmark",
+    "name": "Martin Wessel",
+    "nick": "PERCY",
+    "team": "Maknitude"
+  },
+  {
+    "age": "17 years",
+    "country": "Poland",
+    "name": "Miłosz Knasiak",
+    "nick": "mhL",
+    "team": "AGO"
+  },
+  {
+    "age": "21 years",
+    "country": "Poland",
+    "name": "Patryk Korab",
+    "nick": "Sidney",
+    "team": "AGO"
+  },
+  {
+    "age": "24 years",
+    "country": "Poland",
+    "name": "Dominik Swiderski",
+    "nick": "GruBy",
+    "team": "AGO"
+  },
+  {
+    "age": "22 years",
+    "country": "Poland",
+    "name": "Eryk Kocęba",
+    "nick": "leman",
+    "team": "AGO"
+  },
+  {
+    "age": "24 years",
+    "country": "Poland",
+    "name": "Damian Kislowski",
+    "nick": "Furlan",
+    "team": "AGO"
+  },
+  {
+    "age": "23 years",
+    "country": "Lithuania",
+    "name": "Aurimas Kvakšys",
+    "nick": "Kvik",
+    "team": null
+  },
+  {
+    "age": "22 years",
+    "country": "Ukraine",
+    "name": "Leonard Volodarchuk",
+    "nick": "kenzor",
+    "team": null
+  },
+  {
+    "age": "24 years",
+    "country": "Russia",
+    "name": "Svyatoslav Dovbakh",
+    "nick": "svyat",
+    "team": "Hard Legion"
+  },
+  {
+    "age": "19 years",
+    "country": "Russia",
+    "name": "Igor Bezotecheskiy",
+    "nick": "Forester",
+    "team": "Hard Legion"
+  },
+  {
+    "age": "27 years",
+    "country": "Russia",
+    "name": "Semyon Lisitsyn",
+    "nick": "kinqie",
+    "team": "Hard Legion"
+  },
+  {
+    "age": "23 years",
+    "country": "Russia",
+    "name": "Anton Titov",
+    "nick": "speed4k",
+    "team": "Hard Legion"
+  },
+  {
+    "age": "20 years",
+    "country": "Russia",
+    "name": "Vladislav Kravchenko",
+    "nick": "Krad",
+    "team": "Hard Legion"
+  },
+  {
+    "age": "24 years",
+    "country": "Ukraine",
+    "name": "Dima Lemeshchuk",
+    "nick": "def",
+    "team": "Dracarys"
+  },
+  {
+    "age": "23 years",
+    "country": "Ukraine",
+    "name": "Ivan Semenets",
+    "nick": "AiyvaN",
+    "team": null
+  },
+  {
+    "age": "23 years",
+    "country": "Russia",
+    "name": "Vladislav Bykov",
+    "nick": "Flash_1",
+    "team": "Dracarys"
+  },
+  {
+    "age": "20 years",
+    "country": "Russia",
+    "name": "Dmitriy Martinov",
+    "nick": "ProbLeM",
+    "team": "Dracarys"
+  },
+  {
+    "age": "26 years",
+    "country": "Portugal",
+    "name": "Christopher Fernandes",
+    "nick": "MUTiRiS",
+    "team": "Giants"
+  },
+  {
+    "age": "32 years",
+    "country": "Portugal",
+    "name": "Ricardo Pacheco",
+    "nick": "fox",
+    "team": "Giants"
+  },
+  {
+    "age": "23 years",
+    "country": "Portugal",
+    "name": "Claudio Cunha",
+    "nick": "Cunha",
+    "team": "Giants"
+  },
+  {
+    "age": "29 years",
+    "country": "Spain",
+    "name": "Omar Chakkor",
+    "nick": "arki",
+    "team": "Giants"
+  },
+  {
+    "age": "27 years",
+    "country": "Portugal",
+    "name": "Ricardo Oliveira",
+    "nick": "rmn",
+    "team": "Giants"
+  },
+  {
+    "age": "29 years",
+    "country": "Denmark",
+    "name": "Finn Andersen",
+    "nick": "karrigan",
+    "team": "mousesports"
+  },
+  {
+    "age": "29 years",
+    "country": "Netherlands",
+    "name": "Chris de Jong",
+    "nick": "chrisJ",
+    "team": "mousesports"
+  },
+  {
+    "age": "17 years",
+    "country": "Slovakia",
+    "name": "David Čerňanský",
+    "nick": "frozen",
+    "team": "mousesports"
+  },
+  {
+    "age": "21 years",
+    "country": "Turkey",
+    "name": "Özgür Eker",
+    "nick": "woxic",
+    "team": "mousesports"
+  },
+  {
+    "age": "19 years",
+    "country": "Estonia",
+    "name": "Robin Kool",
+    "nick": "ropz",
+    "team": "mousesports"
+  },
+  {
+    "age": "28 years",
+    "country": "Czech Republic",
+    "name": "Tomáš Šťastný",
+    "nick": "oskar",
+    "team": null
+  },
+  {
+    "age": "25 years",
+    "country": "Finland",
+    "name": "Miikka Kemppi",
+    "nick": "suNny",
+    "team": "ENCE"
+  },
+  {
+    "age": "26 years",
+    "country": "Finland",
+    "name": "Jani Jussila",
+    "nick": "Aerial",
+    "team": "ENCE"
+  },
+  {
+    "age": "25 years",
+    "country": "Finland",
+    "name": "Sami Laasanen",
+    "nick": "xseveN",
+    "team": "ENCE"
+  },
+  {
+    "age": "17 years",
+    "country": "Finland",
+    "name": "Jere Salo",
+    "nick": "sergej",
+    "team": "ENCE"
+  },
+  {
+    "age": "27 years",
+    "country": "Finland",
+    "name": "Aleksi Jalli",
+    "nick": "allu",
+    "team": "ENCE"
+  },
+  {
+    "age": "22 years",
+    "country": "Spain",
+    "name": "Christian Garcia Antoran",
+    "nick": "loWel",
+    "team": "Movistar Riders"
+  },
+  {
+    "age": "25 years",
+    "country": "Brazil",
+    "name": "Lucas Lopes",
+    "nick": "steel",
+    "team": "Movistar Riders"
+  },
+  {
+    "age": "23 years",
+    "country": "Spain",
+    "name": "Alejandro Fernández-Quejo Cano",
+    "nick": "mopoz",
+    "team": "Movistar Riders"
+  },
+  {
+    "age": "23 years",
+    "country": "Spain",
+    "name": "Alejandro Masanet",
+    "nick": "ALEX",
+    "team": "Movistar Riders"
+  },
+  {
+    "age": "25 years",
+    "country": "Spain",
+    "name": "Rajohn Linato",
+    "nick": "EasTor",
+    "team": "Movistar Riders"
+  },
+  {
+    "age": "25 years",
+    "country": "Belgium",
+    "name": "David Prins",
+    "nick": "Davidp",
+    "team": "Heretics"
+  },
+  {
+    "age": "25 years",
+    "country": "France",
+    "name": "Fabien Fiey",
+    "nick": "kioShiMa",
+    "team": "Heretics"
+  },
+  {
+    "age": "22 years",
+    "country": "France",
+    "name": "Bryan Canda",
+    "nick": "Maka",
+    "team": "Heretics"
+  },
+  {
+    "age": "24 years",
+    "country": "France",
+    "name": "David Dobrosavljevic",
+    "nick": "devoduvek",
+    "team": "Heretics"
+  },
+  {
+    "age": "21 years",
+    "country": "France",
+    "name": "Lucas Chastang",
+    "nick": "Lucky",
+    "team": "Heretics"
+  },
+  {
+    "age": "24 years",
+    "country": "United States",
+    "name": "Samuel Portillo",
+    "nick": "SileNt",
+    "team": "Mythic"
+  },
+  {
+    "age": "21 years",
+    "country": "Mexico",
+    "name": "Edgar Maldonado",
+    "nick": "MarKE",
+    "team": "eUnited"
+  },
+  {
+    "age": "20 years",
+    "country": "United States",
+    "name": "Anthony Malaspina",
+    "nick": "vanity",
+    "team": "eUnited"
+  },
+  {
+    "age": "23 years",
+    "country": "United States",
+    "name": "Victor Wong",
+    "nick": "food",
+    "team": "eUnited"
+  },
+  {
+    "age": "26 years",
+    "country": "United States",
+    "name": "Ryan Abadir",
+    "nick": "freakazoid",
+    "team": "eUnited"
+  },
+  {
+    "age": "25 years",
+    "country": "United States",
+    "name": "Austin Abadir",
+    "nick": "Cooper-",
+    "team": "eUnited"
+  },
+  {
+    "age": "25 years",
+    "country": "Canada",
+    "name": "Derrick Boyne",
+    "nick": "LILMAN",
+    "team": "BBC"
+  },
+  {
+    "age": "24 years",
+    "country": "France",
+    "name": "Kenny Schrub",
+    "nick": "kennyS",
+    "team": "G2"
+  },
+  {
+    "age": "23 years",
+    "country": "Serbia",
+    "name": "Nemanja Kovač",
+    "nick": "huNter-",
+    "team": "G2"
+  },
+  {
+    "age": "27 years",
+    "country": "France",
+    "name": "Audric Jug",
+    "nick": "JaCkz",
+    "team": "G2"
+  },
+  {
+    "age": "22 years",
+    "country": "Serbia",
+    "name": "Nemanja Isaković",
+    "nick": "nexa",
+    "team": "G2"
+  },
+  {
+    "age": "19 years",
+    "country": "Israel",
+    "name": "Guy Trachtman",
+    "nick": "anarkez",
+    "team": "m1x"
+  },
+  {
+    "age": "26 years",
+    "country": "France",
+    "name": "Dan Madesclaire",
+    "nick": "apEX",
+    "team": "Vitality"
+  },
+  {
+    "age": "18 years",
+    "country": "France",
+    "name": "Mathieu Herbaut",
+    "nick": "ZywOo",
+    "team": "Vitality"
+  },
+  {
+    "age": "27 years",
+    "country": "France",
+    "name": "Richard Papillon",
+    "nick": "shox",
+    "team": "Vitality"
+  },
+  {
+    "age": "24 years",
+    "country": "Albania",
+    "name": "Dionis Budeci",
+    "nick": "sinnopsyy",
+    "team": "m1x"
+  },
+  {
+    "age": "30 years",
+    "country": "France",
+    "name": "Edouard Dubourdeaux",
+    "nick": "SmithZz",
+    "team": null
+  },
+  {
+    "age": "30 years",
+    "country": "France",
+    "name": "Cédric Guipouy",
+    "nick": "RpK",
+    "team": "Vitality"
+  },
+  {
+    "age": "25 years",
+    "country": "France",
+    "name": "Nathan Schmitt",
+    "nick": "NBK-",
+    "team": null
+  },
+  {
+    "age": "29 years",
+    "country": "Belgium",
+    "name": "Kévin Droolans",
+    "nick": "Ex6TenZ",
+    "team": null
+  },
+  {
+    "age": "24 years",
+    "country": "United Kingdom",
+    "name": "Alex McMeekin",
+    "nick": "ALEX",
+    "team": "Vitality"
+  },
+  {
+    "age": "21 years",
+    "country": "France",
+    "name": "Logan Corti",
+    "nick": "LOGAN",
+    "team": null
+  },
+  {
+    "age": "24 years",
+    "country": "Belgium",
+    "name": "Antoine Pirard",
+    "nick": "to1nou",
+    "team": "Instinct"
+  },
+  {
+    "age": "26 years",
+    "country": "France",
+    "name": "François Delaunay",
+    "nick": "AmaNEk",
+    "team": "G2"
+  },
+  {
+    "age": "27 years",
+    "country": "France",
+    "name": "Vincent Schopenhauer",
+    "nick": "Happy",
+    "team": "LDLC"
+  },
+  {
+    "age": "20 years",
+    "country": "Russia",
+    "name": "Danila Demidov",
+    "nick": "redhide",
+    "team": null
+  },
+  {
+    "age": "24 years",
+    "country": "Russia",
+    "name": "Artyom Arhipov",
+    "nick": "malik",
+    "team": null
+  },
+  {
+    "age": "21 years",
+    "country": "Russia",
+    "name": "Andrey Mekhryakov",
+    "nick": "Jerry",
+    "team": "forZe"
+  },
+  {
+    "age": "21 years",
+    "country": "Russia",
+    "name": "Bogdan Chernikov",
+    "nick": "xsepower",
+    "team": "forZe"
+  },
+  {
+    "age": "18 years",
+    "country": "Russia",
+    "name": "Jenya Lebedev",
+    "nick": "FL1T",
+    "team": "forZe"
+  },
+  {
+    "age": "20 years",
+    "country": "Russia",
+    "name": "Almaz Asadullin",
+    "nick": "almazer",
+    "team": "forZe"
+  },
+  {
+    "age": "25 years",
+    "country": "Russia",
+    "name": "Dmitriy Alekseyev",
+    "nick": "facecrack",
+    "team": "forZe"
+  },
+  {
+    "age": "27 years",
+    "country": "Sweden",
+    "name": "Olof Kajbjer",
+    "nick": "olofmeister",
+    "team": "FaZe"
+  },
+  {
+    "age": "25 years",
+    "country": "Norway",
+    "name": "Håvard Nygaard",
+    "nick": "rain",
+    "team": "FaZe"
+  },
+  {
+    "age": "24 years",
+    "country": "Brazil",
+    "name": "Marcelo David",
+    "nick": "coldzera",
+    "team": "FaZe"
+  },
+  {
+    "age": "22 years",
+    "country": "Bosnia and Herzegovina",
+    "name": "Nikola Kovač",
+    "nick": "NiKo",
+    "team": "FaZe"
+  },
+  {
+    "age": "21 years",
+    "country": "Poland",
+    "name": "Kamil Sobolewski",
+    "nick": "Sobol",
+    "team": "PACT"
+  },
+  {
+    "age": "26 years",
+    "country": "Poland",
+    "name": "Dawid Cieślak",
+    "nick": "lunAtic",
+    "team": "PACT"
+  },
+  {
+    "age": "19 years",
+    "country": "Poland",
+    "name": "Krzysiek Gorski",
+    "nick": "Goofy",
+    "team": "PACT"
+  },
+  {
+    "age": "17 years",
+    "country": "Poland",
+    "name": "Szymon Pluta",
+    "nick": "Crityourface",
+    "team": "PACT"
+  },
+  {
+    "age": "21 years",
+    "country": "Poland",
+    "name": "Kacper Ściera",
+    "nick": "darko",
+    "team": "PACT"
+  },
+  {
+    "age": "31 years",
+    "country": "Poland",
+    "name": "Jarosław Jarząbkowski",
+    "nick": "pashaBiceps",
+    "team": "Youngsters"
+  },
+  {
+    "age": "25 years",
+    "country": "Poland",
+    "name": "Paweł Bieliński",
+    "nick": "byali",
+    "team": null
+  },
+  {
+    "age": "32 years",
+    "country": "Poland",
+    "name": "Filip Kubski",
+    "nick": "NEO",
+    "team": null
+  },
+  {
+    "age": "29 years",
+    "country": "United States",
+    "name": "Josh Marzano",
+    "nick": "jdm64",
+    "team": null
+  },
+  {
+    "age": "30 years",
+    "country": "United States",
+    "name": "Stephen Cutler",
+    "nick": "reltuC",
+    "team": "Peeker's Advantage"
+  },
+  {
+    "age": "22 years",
+    "country": "United States",
+    "name": "Taylor Johnson",
+    "nick": "Drone",
+    "team": "Peeker's Advantage"
+  },
+  {
+    "age": "22 years",
+    "country": "France",
+    "name": "Alexandre Pianaro",
+    "nick": "bodyy",
+    "team": null
+  },
+  {
+    "age": "25 years",
+    "country": "Belgium",
+    "name": "Adil Benrlitom",
+    "nick": "ScreaM",
+    "team": null
+  },
+  {
+    "age": "20 years",
+    "country": "United States",
+    "name": "Ian Hardy",
+    "nick": "motm",
+    "team": "ATK"
+  },
+  {
+    "age": "20 years",
+    "country": "United States",
+    "name": "Josh Ohm",
+    "nick": "oSee",
+    "team": "ATK"
+  },
+  {
+    "age": "19 years",
+    "country": "United States",
+    "name": "Ricky Kemery",
+    "nick": "floppy",
+    "team": "ATK"
+  },
+  {
+    "age": "26 years",
+    "country": "Sweden",
+    "name": "Robin Rönnquist",
+    "nick": "flusha",
+    "team": "fnatic"
+  },
+  {
+    "age": "23 years",
+    "country": "United States",
+    "name": "Daniel Kim",
+    "nick": "vice",
+    "team": null
+  },
+  {
+    "age": "17 years",
+    "country": "Sweden",
+    "name": "Ludvig Brolin",
+    "nick": "Brollan",
+    "team": "fnatic"
+  },
+  {
+    "age": "25 years",
+    "country": "Sweden",
+    "name": "Freddy Johansson",
+    "nick": "KRIMZ",
+    "team": "fnatic"
+  },
+  {
+    "age": "24 years",
+    "country": "Sweden",
+    "name": "Jesper Wecksell",
+    "nick": "JW",
+    "team": "fnatic"
+  },
+  {
+    "age": "25 years",
+    "country": "Sweden",
+    "name": "Maikil Selim",
+    "nick": "Golden",
+    "team": "fnatic"
+  },
+  {
+    "age": "21 years",
+    "country": "United States",
+    "name": "Jake Yip",
+    "nick": "Stewie2K",
+    "team": "Liquid"
+  },
+  {
+    "age": "24 years",
+    "country": "United States",
+    "name": "Nick Cannella",
+    "nick": "nitr0",
+    "team": "Liquid"
+  },
+  {
+    "age": "21 years",
+    "country": "Canada",
+    "name": "Keith Markovic",
+    "nick": "NAF",
+    "team": "Liquid"
+  },
+  {
+    "age": "19 years",
+    "country": "Canada",
+    "name": "Russel Van Dulken",
+    "nick": "Twistzz",
+    "team": "Liquid"
+  },
+  {
+    "age": "22 years",
+    "country": "United States",
+    "name": "Jonathan Jablonowski",
+    "nick": "EliGE",
+    "team": "Liquid"
+  },
+  {
+    "age": "26 years",
+    "country": "United States",
+    "name": "Tyler Latham",
+    "nick": "Skadoodle",
+    "team": null
+  },
+  {
+    "age": "18 years",
+    "country": "Canada",
+    "name": "Tyson Ngo",
+    "nick": "TenZ",
+    "team": null
+  },
+  {
+    "age": "21 years",
+    "country": "United States",
+    "name": "Jordan Montemurro",
+    "nick": "Zellsis",
+    "team": null
+  },
+  {
+    "age": "22 years",
+    "country": "Estonia",
+    "name": "Kristjan Allsaar",
+    "nick": "fejtZ",
+    "team": null
+  },
+  {
+    "age": "22 years",
+    "country": "Sweden",
+    "name": "Alfred Karlsson",
+    "nick": "RuStY",
+    "team": "GamerLegion"
+  },
+  {
+    "age": "28 years",
+    "country": "Sweden",
+    "name": "Dennis Edman",
+    "nick": "dennis",
+    "team": "GamerLegion"
+  },
+  {
+    "age": "21 years",
+    "country": "Sweden",
+    "name": "Tim Jonasson",
+    "nick": "nawwk",
+    "team": "GamerLegion"
+  },
+  {
+    "age": "20 years",
+    "country": "Sweden",
+    "name": "Hampus Poser",
+    "nick": "hampus",
+    "team": "GamerLegion"
+  },
+  {
+    "age": "24 years",
+    "country": "Sweden",
+    "name": "Simon Eliasson",
+    "nick": "twist",
+    "team": "NiP"
+  },
+  {
+    "age": "26 years",
+    "country": "Sweden",
+    "name": "Jonas Olofsson",
+    "nick": "Lekr0",
+    "team": "NiP"
+  },
+  {
+    "age": "17 years",
+    "country": "Sweden",
+    "name": "Nicolas Gonzalez Zamora",
+    "nick": "Plopski",
+    "team": "NiP"
+  },
+  {
+    "age": "31 years",
+    "country": "Sweden",
+    "name": "Patrik Lindberg",
+    "nick": "f0rest",
+    "team": "NiP"
+  },
+  {
+    "age": "21 years",
+    "country": "Sweden",
+    "name": "Fredrik Sterner",
+    "nick": "REZ",
+    "team": "NiP"
+  },
+  {
+    "age": "25 years",
+    "country": "Sweden",
+    "name": "Fredrik Buö",
+    "nick": "freddieb",
+    "team": "Japaleno"
+  },
+  {
+    "age": "24 years",
+    "country": "Sweden",
+    "name": "Joakim Gidetun",
+    "nick": "disco doplan",
+    "team": null
+  },
+  {
+    "age": "24 years",
+    "country": "Sweden",
+    "name": "William Sundin",
+    "nick": "draken",
+    "team": null
+  },
+  {
+    "age": "22 years",
+    "country": "Lithuania",
+    "name": "Eimantas Lazickas",
+    "nick": "pounh",
+    "team": "GameAgents"
+  },
+  {
+    "age": "22 years",
+    "country": "Finland",
+    "name": "Aleksi Virolainen",
+    "nick": "Aleksib",
+    "team": null
+  },
+  {
+    "age": "30 years",
+    "country": "Sweden",
+    "name": "Andreas Fridh",
+    "nick": "MODDII",
+    "team": null
+  },
+  {
+    "age": "25 years",
+    "country": "Russia",
+    "name": "Evgeny Mitsik",
+    "nick": "fenvicious",
+    "team": "Unique"
+  },
+  {
+    "age": "25 years",
+    "country": "Russia",
+    "name": "Pavel Legostaev",
+    "nick": "PASHANOJ",
+    "team": "Unique"
+  },
+  {
+    "age": "18 years",
+    "country": "Latvia",
+    "name": "Roberts Čigauskis",
+    "nick": "R0b3n",
+    "team": "Unique"
+  },
+  {
+    "age": "25 years",
+    "country": "Russia",
+    "name": "Vadim Tsyrov",
+    "nick": "Polt",
+    "team": "Unique"
+  },
+  {
+    "age": "21 years",
+    "country": "Russia",
+    "name": "Alexander Zagodirenko",
+    "nick": "zorte",
+    "team": "Unique"
+  },
+  {
+    "age": "22 years",
+    "country": "Ukraine",
+    "name": "Aleksandr Kostyliev",
+    "nick": "s1mple",
+    "team": "Natus Vincere"
+  },
+  {
+    "age": "20 years",
+    "country": "Russia",
+    "name": "Kirill Mikhailov",
+    "nick": "Boombl4",
+    "team": "Natus Vincere"
+  },
+  {
+    "age": "22 years",
+    "country": "Russia",
+    "name": "Egor Vasilyev",
+    "nick": "flamie",
+    "team": "Natus Vincere"
+  },
+  {
+    "age": "28 years",
+    "country": "Slovakia",
+    "name": "Ladislav Kovács",
+    "nick": "GuardiaN",
+    "team": "Natus Vincere"
+  },
+  {
+    "age": "21 years",
+    "country": "Russia",
+    "name": "Denis Sharipov",
+    "nick": "electronic",
+    "team": "Natus Vincere"
+  },
+  {
+    "age": "31 years",
+    "country": "Ukraine",
+    "name": "Ioann Sukhariev",
+    "nick": "Edward",
+    "team": null
+  },
+  {
+    "age": "21 years",
+    "country": "Denmark",
+    "name": "Daniel Mertz",
+    "nick": "mertz",
+    "team": null
+  },
+  {
+    "age": "21 years",
+    "country": "United States",
+    "name": "Alan Hardeman",
+    "nick": "Shakezullah",
+    "team": null
+  },
+  {
+    "age": "29 years",
+    "country": "Canada",
+    "name": "Joshua Nissan",
+    "nick": "steel",
+    "team": "Ben's Anime Team"
+  },
+  {
+    "age": "18 years",
+    "country": "United States",
+    "name": "Collin McSweegan",
+    "nick": "wrath",
+    "team": null
+  },
+  {
+    "age": "21 years",
+    "country": "United States",
+    "name": "Gage Green",
+    "nick": "Infinite",
+    "team": "Ben's Anime Team"
+  },
+  {
+    "age": "21 years",
+    "country": "United States",
+    "name": "Cameron Kern",
+    "nick": "cam",
+    "team": "Ben's Anime Team"
+  },
+  {
+    "age": "20 years",
+    "country": "United States",
+    "name": "Michael Gulino",
+    "nick": "dapr",
+    "team": "Singularity"
+  },
+  {
+    "age": "23 years",
+    "country": "United States",
+    "name": "Will Loafman",
+    "nick": "dazzLe",
+    "team": "Singularity"
+  },
+  {
+    "age": "24 years",
+    "country": "United States",
+    "name": "Skyler Weaver",
+    "nick": "Relyks",
+    "team": "Singularity"
+  },
+  {
+    "age": "28 years",
+    "country": "United States",
+    "name": "Sebastian Bucki",
+    "nick": "seb",
+    "team": "Singularity"
+  },
+  {
+    "age": "24 years",
+    "country": "Denmark",
+    "name": "Lukas Rossander",
+    "nick": "gla1ve",
+    "team": "Astralis"
+  },
+  {
+    "age": "28 years",
+    "country": "Sweden",
+    "name": "Adam Friberg",
+    "nick": "friberg",
+    "team": null
+  },
+  {
+    "age": "24 years",
+    "country": "Denmark",
+    "name": "Andreas Højsleth",
+    "nick": "Xyp9x",
+    "team": "Astralis"
+  },
+  {
+    "age": "26 years",
+    "country": "Denmark",
+    "name": "Peter Rasmussen",
+    "nick": "dupreeh",
+    "team": "Astralis"
+  },
+  {
+    "age": "21 years",
+    "country": "Denmark",
+    "name": "Emil Reif",
+    "nick": "Magisk",
+    "team": "Astralis"
+  },
+  {
+    "age": "24 years",
+    "country": "Denmark",
+    "name": "Nicolai Reedtz",
+    "nick": "device",
+    "team": "Astralis"
+  }
 ]
