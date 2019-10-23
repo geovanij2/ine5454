@@ -14,13 +14,18 @@ class EcrawlerItem(scrapy.Item):
     pass
 
 class Team(scrapy.Item):
-    # define the fields for your item here like:
     name = scrapy.Field()
 
 class Player(scrapy.Item):
-    # define the fields for your item here like:
     nick = scrapy.Field()
     name = scrapy.Field()
     age = scrapy.Field()
     team = scrapy.Field()
     country = scrapy.Field()
+
+class Match(scrapy.Item):
+	team1 = scrapy.Field()
+	score1 = scrapy.Field()
+	team2 = scrapy.Field()
+	score2 = scrapy.Field()
+	
