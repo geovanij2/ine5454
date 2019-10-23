@@ -38,7 +38,3 @@ class MatchspiderSpider(CrawlSpider):
         match['score2'] = score
 
         return match
-
-
-
-
