@@ -3,7 +3,11 @@ import scrapy
 from scrapy.linkextractors import LinkExtractor
 from scrapy.spiders import CrawlSpider, Rule
 from ..items import Match
+from bs4 import BeautifulSoup
+import time
 
+def divs_with_3_children(tag):
+    return len(tag.contents) == 3
 
 class MatchspiderSpider(CrawlSpider):
     name = 'matchSpider'
@@ -15,33 +19,18 @@ class MatchspiderSpider(CrawlSpider):
     )
 
     def parse_item(self, response):
-        match = response.css('.match-page')
-        if match:
-            yield self.parse_match(match)
+        soup = BeautifulSoup(response.css("body").extract_first())
+        possible_matches = soup.find_all(divs_with_3_children)
+        for possible_match in possible_matches:
+            yield self.parse_match(possible_match)
 
-    def parse_match(self, response):
+    def parse_match(self, tag):
         match = Match()
+        print(tag)
+        time.sleep(10)
 
-        teamBox = response.css('.standard-box')
-
-        teams = teamBox.css('.team')
-
-        match['team1'] = teams[0].css('.teamName::text').extract_first()
-        score = teams[0].css('.won::text').extract_first()
-        if score is None:
-            score = teams[0].css('.lost::text').extract_first()
-        match['score1'] = score
-
-        match['team2'] = teams[1].css('.teamName::text').extract_first()
-        score = teams[1].css('.won::text').extract_first()
-        if score is None:
-            score = teams[1].css('.lost::text').extract_first()
-        match['score2'] = score
-
-        timeAndEvent = teamBox.css('.timeAndEvent')
-
-        match['time'] = timeAndEvent.css('.time::text').extract_first()
-        match['date'] = timeAndEvent.css('.date::text').extract_first()
-        match['event'] = timeAndEvent.css('.event a::text').extract_first()
+        for string in tag.contents[0].strings:
+            if re.fullmatch(r'\d', string):
+                match['team1'] = string
 
         return match
