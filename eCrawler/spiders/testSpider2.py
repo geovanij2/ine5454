@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 import scrapy
-
+# http://www.hltv.org/matches/2337808/havu-vs-cr4zy-esea-mdl-season-32-europe//
 
 class Testspider2Spider(scrapy.Spider):
     name = 'testSpider2'
@@ -9,17 +9,19 @@ class Testspider2Spider(scrapy.Spider):
     def parse(self, response):
         div_3_divs = []
 
-        divs = response.xpath('//div')
+        divs = response.xpath('//div[count(div) = 3]').extract()
 
-        for div in divs:
-            if (len(div.xpath('./div').extract()) == 3):
-            	div_3_divs.append(div.xpath('*').extract_first())
-
-        print(div_3_divs)
-        print(len(div_3_divs))
+        print(len(divs))
 
         file1 = open('test.txt','w+', encoding='utf-8')
-        for div in div_3_divs:
-        	if div is not None:
-        		file1.write('\n\n\n\n\n\n\n\n\n\n\n' + div)
+
+        i = 0
+        for div in divs:
+            if div is not None:
+                file1.write( \
+                    '\n-------------------------------------------------- \n' +\
+                    '    DIV # ' + str(i) + \
+                    '\n-------------------------------------------------- \n' \
+                    + div)
+            i += 1
         file1.close()
