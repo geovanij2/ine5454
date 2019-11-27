@@ -5,9 +5,29 @@ from bs4 import BeautifulSoup
 
 def contains_vs_icon(div):
     for string in div.strings:
-        if string in {'vs'}:
+        if string in {'vs', 'VS', 'Match over'}:
             return True
     return False
+
+def have_equal_num_children(tag1, tag2):
+    children1 = tag1.contents
+    children2 = tag2.contents
+
+    while '\n' in children1:
+        children1.remove('\n')
+
+    while '\n' in children2:
+        children2.remove('\n')
+
+    print("FUNCAO")
+
+    print(children1)
+    print('=========')
+    print(children2)
+
+    print("SAIU")
+
+    return len(children1) == len(children2)
 
 class Testspider2Spider(scrapy.Spider):
     name = 'testSpider2'
@@ -29,17 +49,17 @@ class Testspider2Spider(scrapy.Spider):
             print('-------------------------------------------------\n')
             while '\n' in children:
                 children.remove('\n')
-            if len(children) == 3 and contains_vs_icon(children[1]):
-                file1.write('+++++++++')
+            if len(children) == 3 and contains_vs_icon(children[1]) and have_equal_num_children(children[0], children[2]):
+                file1.write('+++++++++\n')
                 for string in children[0].strings:
-                    file1.write(string)
-                file1.write('+++++++++')
+                    file1.write(string+'\n')
+                file1.write('+++++++++\n')
                 # for string in children[1].strings:
                 #     file1.write(string)
                 # file1.write('+++++++++')
                 for string in children[2].strings:
-                    file1.write(string)
-                file1.write('+++++++++')
+                    file1.write(string+'\n')
+                file1.write('+++++++++\n')
             print('-------------------------------------------------\n')
             # if div is not None:
             #     file1.write( \
